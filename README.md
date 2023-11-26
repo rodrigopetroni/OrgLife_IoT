@@ -4,13 +4,13 @@
 Projeto feito para a Global Solution, com a proposta de criar os sensores da nossa clínica de órgãos. Utilizamos uma placa ESP32 para realizar o sensor, utilizamos o Node-RED para a realização do gateway e para a realização do dashboard.
 
 ## 💎 Fluxos Node-RED 
-Os fluxos para o Node-RED podem ser encontrados nos arquivos acima dentro da pasta
+Os fluxos para o Node-RED podem ser encontrados nos arquivos acima dentro do arquivo **fluxos-nodered.jpg**
 
 ## 📝 Instruções
 Para utilizar o projeto, siga às seguintes instruções:
 - Utilize primeiramente uma plataforma de códigos para a execução do código, no nosso caso utilizamos o Wokwi
 - Depois, dentro do Wokwi, inicie a aplicação do projeto
-- Em seguida, abra o Node-RED e copie os fluxos que estarão disponíveis na pasta
+- Em seguida, abra o Node-RED e copie os fluxos que estarão disponíveis no arquivo **fluxos.nodered.jpg**
 - E por último, 
 
 ## 🦺 Colaboradores
@@ -23,8 +23,9 @@ Segue abaixo nome dos integrantes que auxiliaram na realização do projeto:
 
 ## 🛠️ Tecnologias
 Utilizamos para realizar os sensores as seguintes tecnologias:
-* Wokwi
+* Plataforma Wokwi
 * Node-RED
+* Placa ESP32
 
 ## 🎬 Vídeo
 Link para o vídeo referente ao pitch do projeto com explicação dos temas: 
