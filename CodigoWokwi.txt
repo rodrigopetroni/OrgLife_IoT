@@ -5,7 +5,7 @@
 const int DHT_PIN = 15;
 DHTesp dht; 
 
-// Update these with values suitable for your network.
+// Configure com os padrões utilizados pela sua rede.
 
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
