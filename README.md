@@ -132,7 +132,58 @@ Para utilizar o projeto, siga às seguintes instruções:
  
 
 - Em seguida, abra o Node-RED e copie os fluxos que estarão disponíveis no arquivo **fluxos.nodered.jpg**
-- E por último, insira dentro do 
+- E por último, insira dentro do Node-RED o seguinte JSON:
+```js
+   [
+    {
+        "id": "2f5404c550b1c057",
+        "type": "ui_gauge",
+        "z": "530b5f4a309c5367",
+        "name": "",
+        "group": "77aa337cec4d48f3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Umidade",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 520,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "77aa337cec4d48f3",
+        "type": "ui_group",
+        "name": "dados hora e cartao",
+        "tab": "b65ecaa6413acd47",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b65ecaa6413acd47",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
+```
 
 ## 🦺 Colaboradores
 Segue abaixo nome dos integrantes que auxiliaram na realização do projeto:
