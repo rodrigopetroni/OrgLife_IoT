@@ -195,9 +195,12 @@ Segue abaixo nome dos integrantes que auxiliaram na realização do projeto:
 
 ## 🛠️ Tecnologias
 Utilizamos para realizar os sensores as seguintes tecnologias:
+* Arduino
 * Plataforma Wokwi
 * Node-RED
 * Placa ESP32
+* Protocolo MQTT
+* Placa para sensor de umidade e temperatura DHT22
 
 ## 🎬 Vídeo
 Link para o vídeo referente ao pitch do projeto com explicação dos temas: 
